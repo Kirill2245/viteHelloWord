@@ -1,0 +1,84 @@
+.btnMenu{
+    height: 31.802%;
+    width: 40.028%;
+    display: flex;
+    margin-left: 24.5635%;
+    margin-bottom: 26px;
+    margin-top: 26px;
+
+}
+.btnMenu img{
+    width: 12px;
+    height: 12px;
+    margin-top: 4.34px;
+    margin-bottom: 7.67px;
+}
+.btnMenu button{
+    height: 100%;
+    font-size: 1em;
+    line-height: 24px;
+    border: none;
+    color: #343A40;
+    letter-spacing: 0%;
+    font-weight: 400;
+    padding: 0;
+    font-weight: 400;
+    background-color: transparent;
+}
+.btnHome{
+    width: 44px;
+    height: auto;
+    margin-bottom: 0.17px;
+}
+.btnFeatures{
+    width: 62px;
+    height: auto;
+    margin-left: 27.45px;
+    margin-bottom: 0.17px;
+}
+.btnTestimonial{
+    width: 84px;
+    height: auto;
+    margin-left: 27.45px;
+    margin-bottom: 0.17px;
+}
+.btnTeam{
+    width: 40px;
+    height: auto;
+    margin-left: 25.09px;
+    margin-bottom: 0.17px;
+}
+.btnMore{
+    width: 37px;
+    height: auto;
+    margin-left: 25.36px;
+    margin-top: 0.17px;
+}
+@media(max-width:1440px){
+    .btnMenu{
+        width: 310px;
+        height: 24px;
+        margin-left: 275px;
+    }
+    .btnMore{
+        display: none;
+    }
+    .btnMenu img{
+        display: none;
+    }
+}
+@media(max-width:1080px){
+    .btnMenu{
+        margin-left: 22.3958%;
+    }
+}
+@media(max-width:875px){
+    .btnMenu{
+        margin-left: 19.876%px;
+    }
+}
+@media(max-width:768px){
+    .btnMenu{
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+.boxInputSub{
+    width: 100%;
+    height: 16.92%;
+    display: flex;
+}
+.boxInputSub input {
+    width: 70.19%;
+    height: 40px;
+    margin-right: 16px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.boxInputSub input::placeholder {
+    font-weight: 400;        
+    font-size: 12px;         
+    line-height: 16px;       
+    letter-spacing: 0;        
+    color: #757575;             
+}
+@media (max-width:450px){
+    .boxInputSub input {
+        margin-right: 12px;
+    }
+}
+@media (max-width:375px){
+
+    .boxInputSub input {
+        width: 182px;
+        height: 32.67px;
+        margin-right: 6.29px;
+    } 
+}

@@ -1,0 +1,112 @@
+.button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875em;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    transition: color 1s ease;
+    transition: background-color 0.6s ease;
+}
+.button-Contact{
+    color:#EF5B59;
+    display: flex; 
+    border:1px solid #EF5B59 ;
+    border-radius: 4px;
+    width: 8.854%;
+    height: 52.631%;
+    padding:12px 16px;
+    margin-left: 8.229%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-color: #FFFFFF;
+}
+.button-Contact:hover{
+    background-color: #EF5B59;
+    color: #FFFFFF;
+}
+.button-Started{
+    color: #FFFFFF;
+    display: flex; 
+    border:1px solid #EF5B59 ;
+    border-radius: 4px;
+    width: 145px;
+    height: 40px;
+    padding:12px 16px;
+    margin-top: 14.35px;
+    margin-bottom: 29px;
+    margin-right: 164px;
+    background-color: #EF5B59;
+}
+.button-Started:hover{
+    background-color: #FFFFFF ;
+    color:#EF5B59;
+}
+.button-Subscribe{
+    width: 25.57%;
+    height: 100%;
+    color: #FFFFFF;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding:12px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #EF5B59;
+    margin-right: 0.23px;
+}
+.button-Subscribe:hover{
+    background-color: #FFFFFF;
+    color:#EF5B59;
+    border: 1px solid #EF5B59;
+}
+@media(max-width:1440px){
+    .button-Contact{
+        margin-left: 5.625%;
+    }
+}
+@media(max-width:1080px){
+    .button-Contact{
+        margin-left: 3.541%;
+    }
+    .button-Started{
+        margin-top: 6px;
+    }
+}
+@media(max-width:875px){
+    .button-Contact{
+        margin-left: 0.9375%;
+    }
+    .button-Started{
+        margin-top: 0px;
+    }
+}
+@media(max-width:768px){
+    .button-Contact{
+        display: none;
+    }
+}
+@media(max-width:730px){ 
+    .button-Started{
+        margin-bottom: 0;
+    }
+}
+@media (max-width:450px){
+
+    .button-Subscribe{
+        width: 23.7%;
+    }
+}
+@media (max-width:375px){
+    .button-Started{
+        width: 155px;
+    }
+    .button-Subscribe{
+        width: 136px;
+        height: 32px;
+    }
+}

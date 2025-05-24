@@ -1,0 +1,125 @@
+.subscrible{
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+    min-width: 1924px;
+    background-color: #F4F7FE;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.group{
+    margin-top: 82px;
+    margin-bottom: 81.72px;
+    width: 383.23px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+.subscrible aside{
+    width: 383px;
+    height: 16px;
+    margin-top: 15.28px;
+    margin-bottom: 0;
+    margin-right: 0.23px;
+}
+.textGroup_2{
+    color: #343A40;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 0.75em;
+    line-height: 16px;
+    vertical-align: middle;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.group img {
+    width: 22.72px;
+    height: 20.69px;
+    margin-left:181.45px ;
+    margin-right: 181.77px;
+}
+.group h2 {
+    color: #343A40;
+    font-size: 2em;          
+    line-height: 36px;       
+    letter-spacing: 0;       
+    text-align: center;       
+    display: flex;            
+    align-items: center;      
+    justify-content: center;   
+    font-weight: 700; 
+    margin-top: 11.9px; 
+    margin-bottom: 0;  
+    width: 313px;
+    height: 36px;
+    margin-left: 35.23px;
+    margin-right: 35px;
+}
+.group p {
+    text-align: center;
+    letter-spacing: 0;  
+}
+.textGroup_1{
+    color:#757575;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 12.26px;
+    margin-bottom: 12.15px;
+    width: 383px;
+    height: 72px;
+    margin-left: 0.23px;
+}
+
+@media (max-width:450px){
+    .textGroup_1{
+        font-size: 0.9375em;
+    }
+}
+@media (max-width:375px){
+    .group{
+        width: 327px;
+        height: 193.35012817382812px;
+        margin-top: 103.65px;
+        margin-bottom: 103px;
+        margin-left: 22px;
+    }
+    .group img{
+        width: 17.94865608215332px;
+        height: 16.895973205566406px;
+        margin-top: 0;
+        margin-left: 157px;
+    }
+    .group h2{
+        margin-top: 9.45px;
+        margin-left: 20px;
+        margin-left: 15px;
+        margin-bottom: 0;
+        width: 292px;
+        height: 30px;
+        font-weight: 700;
+        font-size: 1.75em;
+        line-height: 32px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .textGroup_1{
+        width: 302.63092041015625px;
+        height: 58.80568313598633px;
+        margin-top: 9.68px;
+        margin-right: 10.37px;
+        margin-left: 14px;
+        margin-bottom: 1.8px;
+        font-weight: 400;
+        font-size: 0.75em;
+        line-height: 16px;
+        text-align: center;
+    }
+    .subscrible aside{
+        margin:21.04px 0 0 0;
+        width: 327px;
+        height: 13px;
+    }  
+}
