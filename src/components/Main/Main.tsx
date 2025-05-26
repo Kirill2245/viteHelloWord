@@ -6,6 +6,7 @@ import Subscribe from "./Subscribe/Subscribe";
 import Feature from "./Features/Features";
 import Companies from "./Companies/Companies";
 import Testimonials from "./Testimonials/Testimonials";
+import Pricing from "./Pricing/Pricing";
 
 const Main:React.FC = () => {
     return (
@@ -15,6 +16,7 @@ const Main:React.FC = () => {
             <Feature/>
             <Companies/>
             <Testimonials/>
+            <Pricing/>
         </main>
     );
 };
