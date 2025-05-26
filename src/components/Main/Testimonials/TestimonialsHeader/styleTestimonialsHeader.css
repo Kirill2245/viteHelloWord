@@ -1,0 +1,28 @@
+.TestimonialsHeader{
+    width: 401px;
+    height: auto;
+    justify-items: center;
+}
+.TestimonialsHeader h2{
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color:#343A40;
+    margin-bottom: 25.23px;
+    margin-top: 0;
+    width: 186px;
+    height: 27.77px;
+}
+.TestimonialsHeader p{
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 401px;
+    height: 18.51px;
+}

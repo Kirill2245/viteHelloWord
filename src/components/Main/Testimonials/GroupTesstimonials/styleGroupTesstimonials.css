@@ -1,0 +1,29 @@
+.groupTestimonials{
+    width: 309px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+}
+.boxGroupTestimonials .groupTestimonials{
+    margin-right: 16px;
+}
+.boxGroupTestimonials .groupTestimonials:last-child {
+    margin-right: 0px;
+}
+@media(max-width:768px){
+    .groupTestimonials{
+        margin-top: 0;
+        margin-bottom: 55px;
+    }
+    .groupTestimonials:last-child{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:375px){
+    .groupTestimonials{
+        width: 288.965087890625px;
+        height: 266px;
+        margin-bottom: 55px;
+        margin-top: 0;
+    }
+}
