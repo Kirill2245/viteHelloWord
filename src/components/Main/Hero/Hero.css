@@ -53,6 +53,7 @@
 @media(max-width:730px){ 
     .hero{
         height: auto;
+        justify-items: center;
     }
     .boxHero{
         flex-direction: column;

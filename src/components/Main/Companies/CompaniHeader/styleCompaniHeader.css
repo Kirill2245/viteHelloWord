@@ -1,0 +1,47 @@
+.CompaniHeader{
+    width: 364px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CompaniHeader h2{
+    color: #F4F7FE;
+    width: 364px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.CompaniHeader p{
+    color: #F4F7FE;
+    width: 244px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width:375px){
+    .CompaniHeader p{
+        width: 244px;
+        height: 16px;
+        text-align: center;
+    }
+    .CompaniHeader h2{
+        font-size: 1.75em;
+        width: 318px;
+        height: 32px;
+        text-align: center;
+    }
+    .CompaniHeader{
+        width: 318px;
+    }
+}

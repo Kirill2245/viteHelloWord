@@ -8,7 +8,7 @@ import Main from './components/Main/Main.tsx';
     return (
       <>
         <Header />
-        <Main />
+        <Main/>
       </>
     );
   };

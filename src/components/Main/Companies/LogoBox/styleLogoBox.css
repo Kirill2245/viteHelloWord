@@ -1,0 +1,137 @@
+.imgGroup{
+    max-width:990px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 105px;
+    display: flex;
+}
+.imgGroup img{
+    width: 100px;
+    margin-left: 78px;
+}
+.img1{
+    height: 75px;
+}
+.img2{
+    height: 35.4px;
+}
+.img3{
+    height: 100px;
+}
+#intel{
+    margin-bottom: 5px;
+}
+#adobe{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+#amazon{
+    margin-top: 19px;
+    margin-bottom: 11px;
+}
+#face{
+    margin-top: 11px;
+    margin-bottom: 21px;
+}
+#samsung{
+    margin-top: 5px;
+}
+#google{
+    margin-top: 33px;
+    margin-bottom: 36.6px;
+}
+@media(max-width:990px){
+    #adobe{
+        margin-top: 11.1px;
+        margin-bottom: 11.1px;
+        width: 74.04px;
+        height: 55.53px;
+    }
+    #amazon{
+        width: 74.04px;
+        height: 55.53px;
+        margin-top: 11.1px;
+        margin-bottom: 11.1px;
+    }
+    #face{
+        width: 74.04px;
+        height: 55.53px;
+        margin-top: 11.1px;
+        margin-bottom: 11.1px;
+    }
+    #google{
+        width: 74.04px;
+        height: 26.21px;
+        margin-bottom: 27.1px;
+        margin-top: 24.44px;
+    }
+    #intel{
+        width: 74.04px;
+        height: 74.04px;
+        margin-bottom: 3.71px;
+        margin-top: 0;
+    }
+    #samsung{
+        margin-bottom: 0;
+        margin-top: 3.71px;
+        width: 74.04px;
+        height: 74.04px;
+    }
+}
+@media (max-width:965px){
+    .imgGroup img{
+        width: 100px;
+        margin-left: 60px;
+    }
+}
+@media (max-width:835px){
+    .imgGroup img{
+        margin-left: 40.75px;
+    }
+}
+@media (max-width:730px){
+    .imgGroup{
+        width: 335px;
+        height: 35.53px;
+    }
+    .imgGroup img{
+        margin-left: 26.39px;
+    }
+    #adobe{
+        margin-top: 5.08px;
+        margin-bottom: 5.08px;
+        width:33.84px;
+        height: 25.378787994384766px;
+    }
+    #amazon{
+        width: 33.838382720947266px;
+        height: 25.378787994384766px;
+        margin-top: 5.08px;
+        margin-bottom: 5.08px;
+    }
+    #face{
+        width: 33.838382720947266px;
+        height: 25.378787994384766px;
+        margin-top: 5.08px;
+        margin-bottom: 5.08px;
+    }
+    #google{
+        width: 33.838382720947266px;
+        height: 11.97826099395752px;
+        margin-bottom: 12.38px;
+        margin-top: 11.17px;
+    }
+    #intel{
+        width: 33.838382720947266px;
+        height: 33.838382720947266px;
+        margin-bottom: 1.7px;
+        margin-top: 0;
+    }
+    #samsung{
+        margin-bottom: 0;
+        margin-top: 1.7px;
+        width: 33.838382720947266px;
+        height: 33.838382720947266px;
+    }
+}

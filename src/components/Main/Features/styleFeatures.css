@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.features{
+    width: 962px;
+    height: 1157px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 1rem;
+}
+.features h2{
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #343A40;
+    margin-bottom:68px;
+    margin-top: 0;
+}
+.projectSection{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:1080px){
+    .features h2{
+        width: 500px;
+        margin-bottom: 88px;
+    }
+
+}
+@media (max-width:965px){
+    .features{
+        width: 820.27px;
+        height: 1105px;
+        margin-bottom: 130px;
+    }
+    .features h2{
+        margin-bottom: 88px;
+    }
+    .projectSection{
+        width: 820.27px;
+        height: 966px;
+    }
+}
+@media (max-width:835px){
+    .features{
+        width: 720.27px;
+        height: 1105px;
+        margin-bottom: 132px;
+    }
+    .features h2{
+        width: 480px;
+        height: 36px;
+        margin-top: 0;
+        margin-right: 103px;
+        margin-bottom: 103px;
+    }
+    .projectSection{
+        width: 720px;
+        height: 966px;
+    }
+}
+@media (max-width:730px){
+    .features{
+        width: 349px;
+        height: auto;
+    }
+    .features h2{
+        margin: 0;
+        width: 329px;
+        height: 64px;
+        text-align: center;
+    }
+    .projectSection{
+        width: 349px;
+        height: auto;
+        margin-top: 50px;
+    }
+}
+@media (max-width:375px){
+    .features{
+        margin-bottom: 196px;
+        margin-bottom: 143px;
+        width: 329px;
+        height: 1127px;
+    }
+    .features h2{
+        width: 329px;
+        height: 64px;
+        font-size: 1.75em;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .projectSection{
+        width: 298px;
+        height: 1027px;
+        margin-left: 19px;
+        margin-right: 12px;
+    }
+}

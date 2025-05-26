@@ -1,0 +1,127 @@
+div{
+    width: 100%;
+}
+.group1{
+    height: 265px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 41.5px;
+}
+.group1 img{
+    width: 553px;
+    height: 265px;
+}
+.group2{
+    height: 364px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 41.5px;
+    box-sizing: border-box;
+}
+.group2 img{
+    width: 472px;
+    height: 364px;
+}
+.group3{
+    display: flex;
+    height: 341px;
+    width: 100%;
+}
+.group3 img{
+    width: 472px;
+    height: 341px;
+}
+
+@media (max-width:835px){
+    .group1 img{
+        width: 348px;
+        height: 167px;
+        margin-right: 66.75px;
+    }
+    .group2 img{
+        width: 334px;
+        height: 257px;
+        margin-left: 73.73px;
+    }
+    .group3 img{
+        width: 349px;
+        height: 252px;
+        margin-right: 61px;
+    }
+    .group1 {
+        width: 717.27px;
+        height: 167px;
+        margin-bottom: 136px;
+        margin-top: 0;
+    }
+    .group2{
+        width: 718px;
+        height: 257px;
+        margin-bottom: 154px;
+        margin-top: 0;
+    }
+    .group3{
+        width: 720.27px;
+        height: 252px;
+    }
+}
+@media (max-width:730px){
+    .group1 ,.group3{
+        height: auto;
+        flex-direction: column;
+    }
+    .group2 {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .group1 img{
+        margin-right: 0;
+    }
+    .group2 img{
+        margin-left: 0;
+    }
+    .group3 img{
+        margin-right: 0;
+    }
+}
+@media (max-width:375px){
+    .group1{
+        width: 298px;
+        height: 241px;
+        margin-bottom: 89px;
+    }
+    .group1 img{
+        width: 184.24px;
+        height: 72px;
+        margin-top: 0;
+        margin-bottom: 12px;
+        margin-left: 56.88px;
+        margin-right: 56.88px;
+    }   
+    .group2{
+        width: 298px;
+        height: 298px;
+        margin-bottom: 107px;
+    }
+    .group2 img{
+        width: 190.42323303222656px;
+        height: 118px;
+        margin-top: 0;
+        margin-left: 54.41px;
+        margin-right: 53.17px;
+        margin-bottom: 19px;
+    }
+    .group3{
+        width: 298px;
+        height: 292px;
+        margin:0;
+    }
+    .group3 img{
+        width: 190.42323303222656px;
+        height: 111px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        margin-left: 53.17px;
+        margin-right: 54.41px;
+    }
+}
