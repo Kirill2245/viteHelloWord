@@ -6,6 +6,8 @@
     margin-top: 80px;
     margin-bottom: 80px;
     box-sizing: border-box;
+    display: flex;
+    justify-items: center;
 }
 .boxHero{
     width: 100%;
@@ -53,12 +55,12 @@
 @media(max-width:730px){ 
     .hero{
         height: auto;
-        justify-items: center;
     }
     .boxHero{
         flex-direction: column;
         height: auto;
         width: 349px;
+        margin: 0 auto; 
     }
     .textBox{
         margin-left: 0;
