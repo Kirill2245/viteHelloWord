@@ -1,3 +1,14 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    transition: background-color 0.4s ease ;
+}
 .dark-theme {
     background-color: #343A40;
 }
@@ -8,14 +19,28 @@
 .dark-theme h5 {
     color: #FFFFFF; 
 }
+.dark-theme #homeHeader{
+    color: #FFFFFF; 
+}
+.dark-theme .footerBox h5{
+    color: #FFFFFF; 
+}
+.dark-theme #featureHeader2{
+    color: #FFFFFF;
+}
 .dark-theme .btnMenu button{
     color: #F4F7FE;
 }
-.dark-theme .btnContact{
+.dark-theme .button-Contact{
     background-color: #EF5B59;
     color: #F4F7FE;
 }
-
+.dark-theme .SubscribeHeader h2{
+    color: #FFFFFF;
+}
+.dark-theme #testimonialsHeader{
+    color: #FFFFFF;
+}
 .dark-theme .subscrible{
     background-color: #EF5B59;
 }
@@ -54,7 +79,6 @@
 .dark-theme .footerBox img{
     display: none;
 }
-
 @media (prefers-color-scheme: dark) {
     .dark-theme {
         background-color: #343A40;
@@ -66,14 +90,28 @@
     .dark-theme h5 {
         color: #FFFFFF; 
     }
+    .dark-theme #homeHeader{
+        color: #FFFFFF; 
+    }
+    .dark-theme .footerBox h5{
+        color: #FFFFFF; 
+    }
     .dark-theme .btnMenu button{
         color: #F4F7FE;
     }
-    .dark-theme .btnContact{
+    .dark-theme .button-Contact{
         background-color: #EF5B59;
         color: #F4F7FE;
     }
-    
+    .dark-theme #featureHeader2{
+        color: #FFFFFF;
+    }
+    .dark-theme .SubscribeHeader h2{
+        color: #FFFFFF;
+    }
+    .dark-theme #testimonialsHeader{
+        color: #FFFFFF;
+    }
     .dark-theme .subscrible{
         background-color: #EF5B59;
     }
@@ -105,7 +143,6 @@
         color: #F4F7FE;
         background-color: #343A40;
     }
-    
     .dark-theme .footerBox p{
         color: #F4F7FE;
     }

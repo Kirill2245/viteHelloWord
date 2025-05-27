@@ -1,7 +1,9 @@
 import React from 'react';
-import more from '../../../assets/image/polygon.svg'
 import './styleNav.css'
-const NavMenu: React.FC = () => {
+interface NavProps{
+    IamgeMore:string;
+}
+const NavMenu: React.FC<NavProps> = ({IamgeMore}) => {
     return (
         <nav className="btnMenu" id = "btnMenu">
             <button className="btnHome">Home</button>
@@ -9,7 +11,7 @@ const NavMenu: React.FC = () => {
             <button className="btnTestimonial">Testimonial</button>
             <button className="btnTeam">Team</button>
             <button className="btnMore">More</button>
-            <img src = {more} alt = "" id = "poligon"></img>
+            <img src = {IamgeMore} alt = "" id = "poligon"></img>
         </nav>
     );
     };
