@@ -1,0 +1,22 @@
+.followUs{
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+}
+.followUs img{
+    width: 128px;
+    height: 49px;
+}
+@media (max-width:768px){
+    .followUs{
+        width: 133.33px;
+        height: 89px;
+    }
+    .followUs img{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

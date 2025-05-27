@@ -9,9 +9,9 @@ const Pricing:React.FC = () => {
                 <div className="rectangleBox">
                     <PricingHeader/>
                     <section className="boxCard">
-                        <PricingCard arrInfo = {["5 recommendations", "2 perks", "Unlimited data"]} count="10" cardID="One"/>
-                        <PricingCard arrInfo = {["10 recommendations", "5 perks", "Unlimited data"]} count="20" cardID="Two"/>
-                        <PricingCard arrInfo = {["All lower deals +", "Unlimited recommendations", "Unlimited perks"]} count="49" cardID="Three"/>
+                        <PricingCard headerCard="PERSONAL" arrInfo = {["5 recommendations", "2 perks", "Unlimited data"]} count="10" cardID="One"/>
+                        <PricingCard headerCard="AGENCY" arrInfo = {["10 recommendations", "5 perks", "Unlimited data"]} count="20" cardID="Two"/>
+                        <PricingCard headerCard="ENTERPRISE" arrInfo = {["All lower deals +", "Unlimited recommendations", "Unlimited perks"]} count="49" cardID="Three"/>
                     </section>
                 </div>
             </section>

@@ -1,9 +1,10 @@
 import React from "react";
-import './styleSwitch.css'
+import './styleSwitch.css';
+
 const SwitchButton: React.FC = () => {
-    return(
+    return (
         <label className="switch">
-            <input type="checkbox" id="toggle"></input>
+            <input type="checkbox" id="toggle"/>
             <span className="slider"></span>
         </label>
     );

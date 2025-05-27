@@ -5,13 +5,14 @@ import Button from "../../../common/Button/Button";
 
 interface CardProps{
     arrInfo:string[],
-    count:string;
-    cardID:"One"|"Two"|"Three"
+    count:string,
+    cardID:"One" | "Two" | "Three",
+    headerCard:"PERSONAL" | "AGENCY" | "ENTERPRISE"
 }
-const PricingCard:React.FC<CardProps> = ({arrInfo,count,cardID}) => {
+const PricingCard:React.FC<CardProps> = ({arrInfo,count,cardID,headerCard}) => {
     return(
         <div id ={`card${cardID}`} className = "card">
-        <h3>PERSONAL</h3>
+        <h3>{headerCard}</h3>
         <div>
             <p className="dolar">$</p>
             <p className="count">{count}</p>
