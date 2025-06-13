@@ -2,6 +2,7 @@ import React from "react";
 import hero from '../../../assets/image/hero.png'
 import HeroInformation from "./HeroInformation/HeroInformation";
 import './Hero.css'
+
 const Hero:React.FC = () => {
     return(
         <div className="hero">

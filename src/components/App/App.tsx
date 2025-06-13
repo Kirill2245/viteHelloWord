@@ -14,7 +14,7 @@ import Footer from '../Footer/Footer.tsx';
         updateTheme(prefersDarkScheme);
     }, []);
     const updateTheme = (isDark: boolean) => {
-        const body = document.body; // Получаем элемент body
+        const body = document.body; 
         if (isDark) {
             body.classList.add('dark-theme');
             body.classList.remove('light-theme');
