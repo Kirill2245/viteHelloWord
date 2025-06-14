@@ -32,7 +32,7 @@ import Footer from '../Footer/Footer.tsx';
       <>
         <Header isDarkTheme = {isDarkTheme} onToggleTheme = {handleToggle}/>
         <Main/>
-        <Footer/>
+        <Footer theme = {isDarkTheme}/>
       </>
     );
   };

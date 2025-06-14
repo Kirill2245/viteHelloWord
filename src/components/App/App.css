@@ -79,9 +79,7 @@ body{
 .dark-theme .footerBox p{
     color: #F4F7FE;
 }
-.dark-theme .footerBox img{
-    display: none;
-}
+
 @media (prefers-color-scheme: dark) {
     .dark-theme {
         background-color: #343A40;

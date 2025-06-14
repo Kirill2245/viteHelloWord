@@ -3,7 +3,11 @@ import './styleFooter.css';
 
 import FooterGroup from "./FooterGroup/FooterGroup";
 import FollowUs from "./followUs/followUs";
-const Footer:React.FC = () => {
+
+interface footerProps{
+    theme:boolean;
+}
+const Footer:React.FC<footerProps> = ({theme}) => {
     return(
         <footer>
             <section className="footerBox">
@@ -13,7 +17,7 @@ const Footer:React.FC = () => {
                     <FooterGroup headerGroup="About Us" 
                     mainInformation={["Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing tech start up in Silicon Valley."]} 
                     type="aboutUs"/>
-                    <FollowUs/>
+                    <FollowUs theme = {theme}/>
                 </div>
             </section>
         </footer>

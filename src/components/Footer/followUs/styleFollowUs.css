@@ -12,12 +12,14 @@
 .followImage img{
     width: 24px;
     height: 24px;
+}
+.followImage a{
     margin-left: 10px;
 }
-.followImage img:first-child{
+.followImage a:first-child{
     margin-left: 0px;
 }
-.followImage img:last-child{
+.followImage a:last-child{
     margin-left: 0px;
 }
 @media (max-width:768px){
