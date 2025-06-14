@@ -52,8 +52,8 @@ src/
 ├── App.tsx           
 ├── index.tsx         
 └── index.css  
-
-🛠 Getting Started
+```
+## 🛠 Getting Started
 Prerequisites
 Node.js 18+
 
@@ -72,19 +72,19 @@ Start development server:
 
 bash
 npm run dev
-🧑‍💻 Development Scripts
+## 🧑‍💻 Development Scripts
 Command	Description
 npm run dev	Start development server
 npm run build	Create production build
 npm run preview	Preview production build locally
 npm run lint	Run ESLint
 npm run format	Format code with Prettier
-🔗 Anchor Navigation
+## 🔗 Anchor Navigation
 Implemented with React Scroll:
 
 tsx
 import { Link } from 'react-scroll';
-
+```
 <Link 
   to="section-id" 
   smooth={true}
@@ -92,7 +92,8 @@ import { Link } from 'react-scroll';
 >
   Navigate to Section
 </Link>
-📦 Build Process
+```
+## 📦 Build Process
 Create production build:
 
 bash
@@ -101,7 +102,7 @@ Preview build locally:
 
 bash
 npm run preview
-📜 License
+## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
 ## 📸 Screenshots
 
@@ -115,7 +116,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 > **Примечание:** Все скриншоты актуальны для версии 1.0.0
 
-📬 Contact
+## 📬 Contact
 Email: publickirill2245@gmail.com
 GitHub: Kirill2245
 
