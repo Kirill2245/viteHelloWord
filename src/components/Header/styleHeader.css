@@ -24,10 +24,10 @@ header {
     position: relative;
 }
 .navMenuMobile {
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white; 
     animation: slideIn 0.5s ease forwards; 
     width: 310px;
     height: 55px;
