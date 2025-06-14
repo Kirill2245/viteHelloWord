@@ -2,12 +2,13 @@ import React from 'react';
 import { Link} from 'react-scroll';
 import './styleNav.css';
 interface NavProps{
-    IamgeMore:string;
+    IamgeMore:string,
+    // Visible:boolean;
 }
 
 const NavMenu: React.FC<NavProps> = ({IamgeMore}) => {
     return (
-        <nav className="btnMenu" id = "btnMenu">
+        <nav className="btnMenu" >
             <Link 
                 to="home" 
                 smooth={true} 

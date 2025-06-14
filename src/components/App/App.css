@@ -28,8 +28,11 @@ body{
 .dark-theme #featureHeader2{
     color: #FFFFFF;
 }
-.dark-theme .btnMenu button{
-    color: #F4F7FE;
+.dark-theme .btnMenu button,
+.dark-theme .btnMenu .btnFeatures, 
+.dark-theme .btnMenu .btnHome, 
+.dark-theme .btnMenu .btnTestimonial {
+    color: #F4F7FE ; 
 }
 .dark-theme .button-Contact{
     background-color: #EF5B59;

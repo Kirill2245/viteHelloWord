@@ -1,60 +1,142 @@
-header{
+header {
     display: flex;
     justify-content: center;
     margin: 0;
     width: 100vw;
 }
-.headerMenu{
+
+.headerMenu {
     display: flex;
     width: 960px;
     height: 76px;
     font-size: 1rem;
+    /* position: relative; */
 }
-.rollMenu{
-    display: none;
+
+.rollMenu {
     width: 40px;
     height: 16px;
     margin-top: 19.68px;
     margin-bottom: 19.68px;
-    margin-left: 34px; 
+    margin-left: 34px;
+    cursor: pointer;
+    z-index: 101;
+    position: relative;
 }
-.logo{
+.navMenuMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    animation: slideIn 0.5s ease forwards; 
+    width: 310px;
+    height: 55px;
+    z-index: 100;
+    position: absolute;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(180%); 
+    }
+    to {
+        transform: translateX(35%); 
+    }
+}
+
+.navMenuMobile .btnMenu {
+    margin: 0; 
+}
+.logo {
     width: 5.208%;
     height: 73.026%;
     margin-top: 10.25px;
     margin-bottom: 10.25px;
 }
-@media(max-width:960px){
-    .headerMenu{
+
+
+@media (max-width: 960px) {
+    .headerMenu {
         margin-top: 10.32px;
         width: 93.63%;
     }
 }
-@media(max-width:768px){
-    .rollMenu{
-        display: block;
-    }
-    .headerMenu{
+
+@media (max-width: 768px) {
+    .headerMenu {
         height: 55.36px;
     }
-    .logo{
+    .logo {
         width: 37.45px;
         margin-top: 7.47px;
         margin-bottom: 7.47px;
     }
+    @keyframes slideIn {
+    from {
+        transform: translateX(200%); 
+    }
+    to {
+        transform: translateX(65%); 
+    }
 }
-@media(max-width:730px){
-    .switch{
+}
+@media (max-width: 730px) {
+    .switch {
         margin-left: 70.43%;
         margin-top: 15.68px;
         margin-bottom: 15.68px;
     }
-    .rollMenu{
-        margin-left: 18px; 
+    .rollMenu {
+        margin-left: 18px;
     }
 }
-@media (max-width:375px){
-    .headerMenu{
+@media (max-width: 550px) {
+    @keyframes slideIn {
+    from {
+        transform: translateX(120%); 
+    }
+    to {
+        transform: translateX(35%); 
+    }
+}
+}
+@media (max-width: 450px) {
+    @keyframes slideIn {
+    from {
+        transform: translateX(120%); 
+    }
+    to {
+        transform: translateX(20%); 
+    }
+}
+}
+@media (max-width: 400px) {
+    .navMenuMobile .btnFeatures{
+    margin-left: 17.45px;
+}
+    .navMenuMobile .btnTestimonial{
+    margin-left: 17.45px;
+}
+    .navMenuMobile .btnTeam{
+    margin-left: 15.09px;
+}
+}
+@media (max-width: 375px) {
+    .headerMenu {
         margin-left: 25px;
+    }
+    #headerShowMenu .rollMenu{
+        margin-left: 0;
+    }
+    #headerShowMenu {
+        margin-left: 0;
+    }
+        @keyframes slideIn {
+        from {
+            transform: translateX(120%); 
+        }
+        to {
+            transform: translateX(15%); 
+        }
     }
 }
