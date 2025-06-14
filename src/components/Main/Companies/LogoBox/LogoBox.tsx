@@ -1,12 +1,12 @@
 import React from "react";
 import './styleLogoBox.css';
 
-import logoAdode from '../../../../assets/image/Adobe_logo.svg';
-import logoAmazon from '../../../../assets/image/Amazon_logo.svg';
-import logoFacebook from '../../../../assets/image/Facebook_Logo.svg';
-import logoGoogle from '../../../../assets/image/Google_logo.svg';
-import logoIntel from '../../../../assets/image/intel.svg';
-import logoSamsung from '../../../../assets/image/samsung.svg';
+import logoAdode from '@assets/image/Adobe_logo.svg';
+import logoAmazon from '@assets/image/Amazon_logo.svg';
+import logoFacebook from '@assets/image/Facebook_Logo.svg';
+import logoGoogle from '@assets/image/Google_logo.svg';
+import logoIntel from '@assets/image/intel.svg';
+import logoSamsung from '@assets/image/samsung.svg';
 
 const LogoBox:React.FC = () =>{
     return(

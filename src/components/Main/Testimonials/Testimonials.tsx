@@ -4,7 +4,7 @@ import './styleTestimonials.css';
 import TestimonialsHeader from "./TestimonialsHeader/TestimonialsHeader";
 import GroupTestimonials from "./GroupTesstimonials/GroupTesstimonials";
 
-import imgProfile from '../../../assets/image/team1.svg';
+import imgProfile from '@assets/image/team1.svg';
 
 const Testimonials:React.FC = () => {
     return(

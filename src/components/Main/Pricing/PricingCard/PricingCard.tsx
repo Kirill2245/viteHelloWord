@@ -1,7 +1,7 @@
 import React from "react";
 import './stylePricingCard.css';
 
-import Button from "../../../common/Button/Button";
+import Button from "@common/Button/Button";
 
 interface CardProps{
     arrInfo:string[],

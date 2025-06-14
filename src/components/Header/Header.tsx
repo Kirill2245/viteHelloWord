@@ -1,16 +1,16 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-import logo from'../../assets/image/keiko-logo1.svg';
-import rollMenu from '../../assets/image/Hamburger.svg'
+import logo from'@assets/image/keiko-logo1.svg';
+import rollMenu from '@assets/image/Hamburger.svg'
 import './styleHeader.css';
 
 import NavMenu from './navMenu/navMenu';
-import SwitchButton from '../common/SwitchButton/SwitchButton';
-import Button from '../common/Button/Button';
+import SwitchButton from '@common/SwitchButton/SwitchButton';
+import Button from '@common/Button/Button';
 
-import poligon from '../../assets/image/polygon.svg';
-import poligon1 from '../../assets/image/polygon1.svg';
+import poligon from '@assets/image/polygon.svg';
+import poligon1 from '@assets/image/polygon1.svg';
 
 interface HeaderProps {
     isDarkTheme: boolean; 

@@ -1,9 +1,9 @@
 import React from "react";
 import './styleFeatures.css';
 import ProgectGroup from './progectGroup/progectGroup';
-import design from '../../../assets/image/design1.png';
-import development from '../../../assets/image/development1.png';
-import creations from '../../../assets/image/creations1.png'
+import design from '@assets/image/design1.png';
+import development from '@assets/image/development1.png';
+import creations from '@assets/image/creations1.png'
 
 const Feature:React.FC = () => {
     return(

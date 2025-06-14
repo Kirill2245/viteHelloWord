@@ -1,13 +1,13 @@
 import React from "react";
 import './styleFollowUs.css';
 
-import twiterLight from '../../../assets/image/twitterLight.svg';
-import twiterDark from '../../../assets/image/twitterDarck.svg';
-import facebookLight from '../../../assets/image/facebookLight.svg';
-import facebookDark from '../../../assets/image/facebookDark.svg';
-import insagram from '../../../assets/image/icons8-instagram.svg';
-import pinterestLight from '../../../assets/image/pinterestLight.svg';
-import googleLight from '../../../assets/image/googLight.svg';
+import twiterLight from '@assets/image/twitterLight.svg';
+import twiterDark from '@assets/image/twitterDarck.svg';
+import facebookLight from '@assets/image/facebookLight.svg';
+import facebookDark from '@assets/image/facebookDark.svg';
+import insagram from '@assets/image/icons8-instagram.svg';
+import pinterestLight from '@assets/image/pinterestLight.svg';
+import googleLight from '@assets/image/googLight.svg';
 
 interface followUsProps{
     theme:boolean;

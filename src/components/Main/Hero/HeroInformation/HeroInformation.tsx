@@ -1,6 +1,6 @@
 import React from "react";
 import './styleHeroInformation.css'
-import Button from "../../../common/Button/Button";
+import Button from "@common/Button/Button";
 const HeroInformation:React.FC = () => {
     return(
         <article className="textBox">

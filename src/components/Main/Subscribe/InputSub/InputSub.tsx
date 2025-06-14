@@ -2,7 +2,7 @@ import React from "react";
 import './styleInput.css';
 
 
-import Button from "../../../common/Button/Button";
+import Button from "@common/Button/Button";
 const InputSub:React.FC = () => {
     return(
         <div className="boxInputSub">
