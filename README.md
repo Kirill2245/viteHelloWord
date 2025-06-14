@@ -10,8 +10,6 @@
 
 Modern startup website featuring smooth animations, anchor navigation, and responsive design.
 
-## 🌟 Live Demo  
-[View Deployment](https://your-deployment-url.com)  
 
 ## 📌 Table of Contents
 - [Key Features](#-key-features)
