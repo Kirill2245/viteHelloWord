@@ -51,7 +51,8 @@ src/
 ├── types/           
 ├── App.tsx           
 ├── index.tsx         
-└── index.css        
+└── index.css  
+
 🛠 Getting Started
 Prerequisites
 Node.js 18+
@@ -85,25 +86,18 @@ tsx
 import { Link } from 'react-scroll';
 
 <Link 
-  to="features" 
+  to="section-id" 
   smooth={true}
   duration={500}
-  className="nav-link"
-  spy={true}
-  activeClass="active"
 >
-  Features
+  Navigate to Section
 </Link>
-
-<section id="features" className="section">
-  {/* Content */}
-</section>
 📦 Build Process
-Create optimized production build:
+Create production build:
 
 bash
 npm run build
-Preview build locally before deployment:
+Preview build locally:
 
 bash
 npm run preview
