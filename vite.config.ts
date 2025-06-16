@@ -7,6 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',  // Важно для Vercel
   },
+  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
