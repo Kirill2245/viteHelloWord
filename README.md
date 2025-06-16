@@ -118,15 +118,3 @@ Distributed under the MIT License. See LICENSE for more information.
 Email: publickirill2245@gmail.com
 GitHub: Kirill2245
 
-Key highlights:
-1. Professional badges showing tech stack
-2. Clear project structure with path aliases
-3. Dedicated sections for animation and navigation systems
-4. Mobile-friendly formatting
-5. Command reference for common tasks
-6. Clean visual hierarchy with emojis
-
-Would you like me to:
-1. Add a GIF demo of the animations?
-2. Include contribution guidelines?
-3. Add more details about the startup's tech solutions?
