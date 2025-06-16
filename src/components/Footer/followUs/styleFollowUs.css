@@ -4,7 +4,7 @@
     width: 128px;
 }
 .followImage{
-    width: 128px;
+    width: 115px;
     height: 49px;
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +19,8 @@
 .followImage a:first-child{
     margin-left: 0px;
 }
-.followImage a:last-child{
-    margin-left: 0px;
+.followImage a:nth-last-child(2) {
+    margin-left: 0;
 }
 @media (max-width:768px){
     .followUs{
