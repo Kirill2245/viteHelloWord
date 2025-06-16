@@ -33,10 +33,10 @@ Modern startup website featuring smooth animations, anchor navigation, and respo
 ## 💻 Tech Stack
 | Category       | Technologies                          |
 |----------------|---------------------------------------|
-| Core           | Vite 4, React 18, TypeScript 5       |
-| Styling        | Tailwind CSS, CSS Modules             |
+| Core           | Vite 4, React 18, TypeScript 5        |
+| Styling        | CSS                                   |
 | Navigation     | React Scroll                          |
-| Animations     | Framer Motion                         |
+| Animations     | CSS(@keyframes)                       |
 | Linting        | ESLint + Prettier                     |
 
 ## 📁 Project Structure
